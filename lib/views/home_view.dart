@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sharedpreftutorial/routes.dart';
 import 'package:sharedpreftutorial/services/shared_preferences_service.dart';
-import 'package:sharedpreftutorial/views/login_view.dart';
 
 class HomeView extends StatelessWidget {
   final PrefService _prefService = PrefService();
